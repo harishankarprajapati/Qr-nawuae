@@ -1,5 +1,5 @@
 body {
-    background-color: #1B1B1B;
+    background-color: #fff;
 }
 
 .sec-main-con {
@@ -10,9 +10,7 @@ body {
 .sec-main-con2 {
     border: 20px solid #F2D88B;
     padding: 30px;
-    background-image: url(https://bedoursalon.com/qrmain/wp-content/uploads/2023/05/ab-img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,6 +31,8 @@ img.sec-img-m.p-2 {
     display: inline-block;
     height: 70px;
     margin: 10px;
+    border: 1px solid red;
+    box-shadow: 0px 0px 5px 1px #ff0000;
 }
 
 .sec-icon2 {
@@ -161,4 +161,35 @@ a{
         padding: 20px 0px !important;
         
     }
+}
+.sec-play-btn{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translatey(0px);
+    animation: pulse 1.5s infinite;
+    box-shadow: 0 0 0 0 #ff0000;
+    -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    font-weight: normal;
+    font-family: sans-serif;
+    text-decoration: none !important;
+    transition: all 300ms ease-in-out;
+}
+.close {
+    cursor: pointer;
+    background: red;
+    border: 1px solid red;
+    color: yellow;
+}
+.sec-paddig-ic{
+    padding-top: 150px;
 }
